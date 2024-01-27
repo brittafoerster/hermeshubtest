@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Hermeshub"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: contact.qmd
+        text: "Kontakt"
+      - href: veranstaltungen.qmd
+        text: Veranstaltungen
+      - blog.qmd
+      - text: Projekte  
+        menu:
+          - challenges.qmd
+          - carpentries.qmd
+          - hub.qmd
+          - labs.qmd
+          - wisskomm.qmd
+          - communication.qmd
+          - oer.qmd
+          - stipendien.qmd
+          - transfer.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
