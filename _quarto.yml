@@ -2,6 +2,9 @@ project:
   type: website
 
 website:
+  comments: 
+    hypothesis:
+      theme: clean
   title: "Hermeshub"
   navbar:
     left:
